@@ -29,7 +29,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       run: |
-        
+        cp -rvf k2p_nano.config /opt/rt-n56u/trunk/configs/templates
         cd /opt/rt-n56u/trunk
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
