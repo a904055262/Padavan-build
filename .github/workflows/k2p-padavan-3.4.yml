@@ -32,7 +32,7 @@ jobs:
         cp -rvf k2p_nano.config /opt/rt-n56u/trunk/configs/templates
         cd /opt/rt-n56u/trunk
         sudo ./clear_tree
-        sudo ./build_firmware_modify $TNAME 0
+        sudo ./build_firmware_modify k2p_nano
         sudo mv -f images/*.trx /opt/images/
         
     - name : Upload packages
