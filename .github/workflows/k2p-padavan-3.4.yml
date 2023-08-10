@@ -1,5 +1,5 @@
 
-name: Build Padavan
+name: Build k2p-padavan-3.4
 
 on: 
   workflow_dispatch:
